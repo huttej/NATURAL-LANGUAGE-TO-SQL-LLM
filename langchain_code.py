@@ -11,7 +11,7 @@ from few_shots import few_shots
 
 
 def get_few_shots_db_chain():
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",google_api_key="AIzaSyAF_D4BAq6gbkAfYPO_nfb6HmuRgwPkOPU",temperature=0.1)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",google_api_key="use your key",temperature=0.1)
     db_user="root"
     db_password="huttej"
     db_host="localhost"
